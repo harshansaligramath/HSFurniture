@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentWidth {
+  width: 100%;
+}
+
+
+
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);    
+}
+
+.top {
+  margin-top: 80px;
+}
+
+
+/* blur of background */
+.blur{
+  position: fixed;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #ec64aa;
+  filter: blur(72px)
+}
+
